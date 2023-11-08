@@ -11,6 +11,11 @@
 		180C8EF82AFB9A2B0027A0A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C8EF72AFB9A2B0027A0A3 /* ContentView.swift */; };
 		180C8EFA2AFB9A2D0027A0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180C8EF92AFB9A2D0027A0A3 /* Assets.xcassets */; };
 		180C8EFD2AFB9A2D0027A0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180C8EFC2AFB9A2D0027A0A3 /* Preview Assets.xcassets */; };
+		180C8F052AFB9B4B0027A0A3 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C8F042AFB9B4B0027A0A3 /* SignUpView.swift */; };
+		180C8F082AFB9BA00027A0A3 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C8F072AFB9BA00027A0A3 /* AuthButton.swift */; };
+		180C8F0A2AFB9BCF0027A0A3 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C8F092AFB9BCF0027A0A3 /* AuthTextField.swift */; };
+		180C8F0C2AFB9BF50027A0A3 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C8F0B2AFB9BF50027A0A3 /* SignUpViewModel.swift */; };
+		180C8F0E2AFB9C080027A0A3 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C8F0D2AFB9C080027A0A3 /* SignUpModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		180C8EF72AFB9A2B0027A0A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		180C8EF92AFB9A2D0027A0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180C8EFC2AFB9A2D0027A0A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		180C8F042AFB9B4B0027A0A3 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		180C8F072AFB9BA00027A0A3 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		180C8F092AFB9BCF0027A0A3 /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
+		180C8F0B2AFB9BF50027A0A3 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		180C8F0D2AFB9C080027A0A3 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		180C8EF42AFB9A2B0027A0A3 /* mkdir */ = {
 			isa = PBXGroup;
 			children = (
+				180C8F062AFB9B8C0027A0A3 /* Reusable Component */,
+				180C8F032AFB9B360027A0A3 /* SignUp */,
 				180C8EF52AFB9A2B0027A0A3 /* mkdirApp.swift */,
 				180C8EF72AFB9A2B0027A0A3 /* ContentView.swift */,
 				180C8EF92AFB9A2D0027A0A3 /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				180C8EFC2AFB9A2D0027A0A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		180C8F032AFB9B360027A0A3 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				180C8F042AFB9B4B0027A0A3 /* SignUpView.swift */,
+				180C8F0B2AFB9BF50027A0A3 /* SignUpViewModel.swift */,
+				180C8F0D2AFB9C080027A0A3 /* SignUpModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		180C8F062AFB9B8C0027A0A3 /* Reusable Component */ = {
+			isa = PBXGroup;
+			children = (
+				180C8F072AFB9BA00027A0A3 /* AuthButton.swift */,
+				180C8F092AFB9BCF0027A0A3 /* AuthTextField.swift */,
+			);
+			path = "Reusable Component";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				180C8EF82AFB9A2B0027A0A3 /* ContentView.swift in Sources */,
+				180C8F0E2AFB9C080027A0A3 /* SignUpModel.swift in Sources */,
+				180C8F0A2AFB9BCF0027A0A3 /* AuthTextField.swift in Sources */,
+				180C8F082AFB9BA00027A0A3 /* AuthButton.swift in Sources */,
+				180C8F052AFB9B4B0027A0A3 /* SignUpView.swift in Sources */,
+				180C8F0C2AFB9BF50027A0A3 /* SignUpViewModel.swift in Sources */,
 				180C8EF62AFB9A2B0027A0A3 /* mkdirApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
